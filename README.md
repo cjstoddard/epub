@@ -1,0 +1,1 @@
+Text mode Epub reader based loosely on [Saraswati](https://github.com/dlbeer/saraswati).
