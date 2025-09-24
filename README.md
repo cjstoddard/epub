@@ -2,7 +2,7 @@ Text mode Epub reader based loosely on [Saraswati](https://github.com/dlbeer/sar
 
 To build:
 
-> sudo apt-get install -y libzip-dev libtinyxml2-dev libncursesw5-dev
+> sudo apt install -y libzip-dev libtinyxml2-dev libncursesw5-dev
 >
 > make
 >
