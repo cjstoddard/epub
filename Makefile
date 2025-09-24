@@ -6,7 +6,7 @@ SRC := src/main.cpp src/epub.cpp src/html_text.cpp src/ui.cpp
 HDR := src/epub.h src/html_text.h src/ui.h
 OBJ := $(SRC:.cpp=.o)
 
-saraswati: $(OBJ)
+epub: $(OBJ)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJ) $(LIBS)
 
 %.o: %.cpp $(HDR)
